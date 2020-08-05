@@ -1,0 +1,182 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /* background-image: url('images/space_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    height: 100%;
+}
+.center-div {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+    background-color: rgba(204, 204, 204, 0.5);
+    border-radius: 3px;
+}
+
+#canon {
+    background-image: url('../images/canon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 600px;
+    left: 550px;
+    display: none;
+}
+
+#plank {
+    background-image: url('../images/plank.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 4vh;
+    width: 1200px;
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    display: none;
+}
+
+#background {
+    background-image: url('../images/space_bg.jpg');
+    height: 700px;
+    width: 1200px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.enemy {
+    background-image: url('../images/enemy1.png');
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.enemy p, #canon p {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#enemies {
+    height: 800px;
+    width: 1200px;
+    position: absolute;
+}
+#bullets {
+    height: 800px;
+    width: 1200px;
+    position: absolute;
+}
+.bullet {
+    background-image: url('../images/bullet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    width: 10px;
+    position: absolute;
+}
+
+.btn-group {  /* top, right, bot, left  */
+    padding: 10px 20px 0px 10px;
+}
+
+/* button {
+    width: 30%;
+    height: 30px;
+    font-size: large;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+} */
+
+#save-btn{
+    width: 20%;
+    height: 30px;
+    font-size: medium;
+    font-style: bold;
+    margin: 0 auto;
+    display: block;
+    margin-top: -25px;
+    background-color:palevioletred;
+    border: 2px solid black;
+
+}
+label {
+    margin-left: 10px;
+    font-size: large;
+}
+
+input{
+    height: 30px;
+    width: 90%;
+    margin-left: 15px;
+}
+
+#score {
+    background-color: rgb(38, 55, 131);
+    position: fixed;
+    width: 1200px;
+    height: 6vh;
+    bottom: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#score p {
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#score ul li {
+    display:inline;
+    color: white;
+    margin: 20px 20px 0 0;
+}
+
+#audio-btn{
+    width: 30px;
+    height: 30px;
+    background: url("../images/unmute.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 100px;
+    margin-top: 10px;
+    
+}
+
+
+
+

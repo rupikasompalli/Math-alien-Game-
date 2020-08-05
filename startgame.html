@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Start</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/startgamestyle.css" >
+</head>
+
+<body>
+    
+    <audio src="audio/spaceinvaders1.mpeg" type="audio/mpeg" id="my_audio" loop="loop" autoplay="autoplay"></audio>
+    <link rel="shortcut icon" href="">
+    
+    <div id="background">
+        
+        <div id="plank">
+        </div>
+        
+        <div id="canon">
+            <p id="canon_value">2</p>
+        </div>
+        <div id="enemies"></div>
+        <div id="bullets"></div>
+        <div id="score">
+            <ul>
+                <li>TIMER:</li>
+                <li><span id="timer"></span></li>
+                <li></li>
+                <li>HIT:</li>
+                <li id="hitValue">0</li>
+                <li></li>
+                <li>MISS:</li>
+                <li id="missValue">0</li>
+                <li></li>            
+            </ul>  
+            <div>
+                <button id="save-btn"> SaveGame</button>
+            </div>
+            <div id="audio-btn" onclick="toggleAudio()"></div>
+        </div>
+    </div>
+      
+    <script src="js/startgame.js"></script> 
+    <script src="js/modeselected.js"></script>  
+    
+</body>
+</html>
